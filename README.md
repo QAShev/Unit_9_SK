@@ -5,6 +5,7 @@
 This repository contains a test suite written in JavaScript using [Playwright](https://playwright.dev/), designed to test the functionality of a web application (Swag Labs). The tests focus on verifying login functionality, adding products to the cart, and checking the shopping cart.
 
 The test suite includes the following scenarios:
+
 **Perform Login**: Verifies the login process, checks if the product page and shopping cart are visible, and ensures there are products listed.
 
 - Perform login using "standard_user"
