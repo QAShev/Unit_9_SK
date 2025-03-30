@@ -6,12 +6,15 @@ This repository contains a test suite written in JavaScript using [Playwright](h
 
 The test suite includes the following scenarios:
 **Perform Login**: Verifies the login process, checks if the product page and shopping cart are visible, and ensures there are products listed.
+
 - Perform login using "standard_user"
 - On the opened page verify: 
 - Products (1) title is displayed
 - Shopping Cart icon (2) is displayed
 - More than 1 product (3) is displayed
+
 **Add Product to the Cart**: Verifies adding a product to the cart, checking if the cart badge updates correctly, navigating to the cart page, and ensuring the product appears in the cart. Additionally, it checks removing a product from the cart.
+
 - Perform login using "standard_user"
 - Add the first product to the cart by clicking Add to Cart button
 - Verify Shopping Cart icon contains the number of products added (equal 1)
